@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Car",
+      "description": "This is a car",
+      "author": "Mike",
+      "image": "https://imagizer.imageshack.us/v2/392x392q90/908/6sLhAU.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Tigers",
+      "description": "There are tigers",
+      "author": "Robert",
+      "image": "https://imagizer.imageshack.us/v2/294x392q90/661/Euz6Bx.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "text": "Primer Comentario",
+      "postId": 1,
+      "id": 1
+    },
+    {
+      "text": "Segundo Comentario",
+      "postId": 1,
+      "id": 2
+    }
+  ]
+}
