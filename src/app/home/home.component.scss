@@ -1,4 +1,9 @@
-.example-card{
-  border-top-color: black;
-  border-top-style: solid;
+.posts-container
+{
+  background-color: #f1f1f1;
+
+  .example-card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 }

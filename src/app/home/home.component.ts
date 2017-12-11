@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
     this.homeService.getPosts()
     .then(res => {
       this.posts = res;
+      console.log(res)
     })
   }
 

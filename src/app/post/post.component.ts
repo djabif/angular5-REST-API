@@ -16,7 +16,7 @@ export class PostComponent implements OnInit {
     "image": "",
   };
 
-  comments: Array<any>;
+  comments: any = [];
   comment: string = '';
 
   constructor(

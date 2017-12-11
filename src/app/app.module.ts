@@ -16,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { PostComponent } from './post/post.component';
 import { PostService } from './post/post.service';
@@ -28,7 +29,7 @@ import { PostService } from './post/post.service';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(rootRouterConfig, { useHash: true }),
+    RouterModule.forRoot(rootRouterConfig, { useHash: false }),
     HttpClientModule,
     BrowserAnimationsModule,
     MatButtonModule,
@@ -36,6 +37,7 @@ import { PostService } from './post/post.service';
     MatListModule,
     MatInputModule,
     MatIconModule,
+    MatToolbarModule,
     FormsModule
   ],
   providers: [HomeService, PostService],

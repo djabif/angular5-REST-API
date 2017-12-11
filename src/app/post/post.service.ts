@@ -41,4 +41,12 @@ export class PostService {
       })
     })
   }
+
+  updateComment(comment, newComment){
+    return new Promise((resolve,reject) => {
+      this.http.put(this.link + 'comments?id=' + comment.id, newComment).subscribe(data => {
+        resolve(newComment);
+      })
+    })
+  }
 }
